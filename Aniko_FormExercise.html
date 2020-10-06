@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+    <div>
+        <label for="firstname">First Name: </label>
+        <input id="firstname" name="firstname" type="text" placeholder="First Name" required>
+        <label for="lastname">Last Name: </label>
+        <input id="lastname" name="lastname"   type="text" placeholder="Last Name" required>
+    </div>
+    <div>
+        <label for="male">Male</label>
+        <input name="genderChoice" id="male" type="radio" value="MALE">
+        <label for="female">Female</label>
+        <input name="genderChoice" id="female" type="radio" value="FEMALE">
+        <label for="other">Other</label>
+        <input name="genderChoice" id="other" type="radio" value="OTHER">
+    </div>
+    <div>
+        <label for="email">Email: </label> 
+        <input name="email" type="email" placeholder="your email" required>
+        <label for="password">Password: </label> 
+        <input name="password" type="password" placeholder="your password" minlength="5" maxlentgth="10" required> 
+    </div>
+    <div>
+        <label for="birthday">Birthday: </label>
+        <select name="month"> 
+            <option>Month</option>
+            <option value="january">January</option>
+            <option value="february">February</option>
+            <option value="march">March</option>
+            <option value="april">April</option>
+            <option value="may">May</option>
+            <option value="june">June</option>
+            <option value="july">July</option>
+            <option value="august">August</option>
+            <option value="september">September</option>
+            <option value="october">October</option>
+            <option value="november">November</option>
+            <option value="december">December</option>
+        </select>
+        <select name="day">
+            <option>Day</option>
+            <option value="one">1</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+            <option value="four">4</option>
+            <option value="five">5</option>
+            <option value="six">6</option>
+            <option value="seven">7</option>
+            <option value="eight">8</option>
+            <option value="nine">9</option>
+            <option value="ten">10</option>
+            <option value="eleven">11</option>
+            <option value="twelve">12</option>
+            <option value="thirteen">13</option>
+            <option value="fourteen">14</option>
+            <option value="fifteen">15</option>
+            <option value="sixteen">16</option>
+            <option value="seventeen">17</option>
+            <option value="eighteen">18</option>
+            <option value="nineteen">19</option>
+            <option value="twenty">20</option>
+            <option value="twenty-one">21</option>
+            <option value="twenty-two">22</option>
+            <option value="twenty-three">23</option>
+            <option value="twenty-four">24</option>
+            <option value="twenty-five">25</option>
+            <option value="twenty-six">26</option>
+            <option value="twenty-seven">27</option>
+            <option value="twenty-eight">28</option>
+            <option value="twenty-nine">29</option>
+            <option value="thirty">30</option>
+            <option value="thirty-one">31</option>
+        </select>
+        <select name="year">
+            <option>Year</option>
+            <option value="nineteen eighty-nine">1989</option>
+            <option value="nineteen ninety">1990</option>
+            <option value="nineteen ninety-one">1991</option>
+            <option value="nineteen ninety-two">1992</option>
+            <option value="nineteen ninety-three">1993</option>
+            <option value="nineteen ninety-four">1994</option>
+            <option value="nineteen ninety-five">1995</option>
+            <option value="nineteen ninety-six">1996</option>
+            <option value="nineteen ninety-seven">1997</option>
+            <option value="nineteen ninety-eight">1998</option>
+            <option value="nineteen ninety-nine">1999</option>
+            <option value="twothousand">2000</option>
+        </select>
+    </div>
+    <div>
+        <label for="terms">I agree to the terms and conditions</label>
+        <input name="terms" type="checkbox">
+    </div>
+    <button>Submit</button>
+</form>
+</body>
+</html>
