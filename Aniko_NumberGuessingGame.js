@@ -7,6 +7,6 @@ if (yourGuess > myNumber) {
 else if (yourGuess < myNumber) {
     alert("It is too low. Try again!")
 }
-else if (yourGuess = myNumber) {
+else if (yourGuess ==   myNumber) {
     alert("Congratulation! Perfect match!");
 }
