@@ -53,6 +53,6 @@ function max(arr) {
 };
 
 let myArray3 = [5, 7, 3, 99, 2]
-max(myArray3);
+max(myArray3);  
 
 
